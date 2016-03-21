@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<job>
+<script language="JScript"><![CDATA[
+
+var xml = new ActiveXObject("Msxml2.DOMDocument.6.0");
+
+var instr = xml.createProcessingInstruction("xml", "version=\"1.0\" encoding=\"UTF-8\"");
+xml.appendChild(instr);
+
+var videolibrary = xml.createElement("videolibrary");
+xml.appendChild(videolibrary);
+
+var nameSite=xml.createElement("nameSite");
+videolibrary.appendChild(nameSite);
+nameSite.appendChild(xml.createTextNode('Арена София'));
+
+var siteLink=xml.createElement("siteLink");
+videolibrary.appendChild(siteLink);
+siteLink.appendChild(xml.createTextNode('www.arenaSofia.bg'));
+
+var videos=xml.createElement("videos");
+videolibrary.appendChild(videos);
+
+var video1=xml.createElement("video")
+video1.setAttribute("gendre", "action");
+video1.setAttribute("produced-by", "s2");
+video1.setAttribute("type", "movie");
+videos.appendChild(video1);
+
+var filmName=xml.createElement("filmName");
+video1.appendChild(filmName);
+filmName.appendChild(xml.createTextNode("Седмият син"));
+
+var duration=xml.createElement("duration");
+video1.appendChild(duration);
+duration.appendChild(xml.createTextNode("103"));
+
+var country=xml.createElement("country");
+video1.appendChild(country);
+country.appendChild(xml.createTextNode("USA"));
+
+var year=xml.createElement("year");
+video1.appendChild(year);
+year.appendChild(xml.createTextNode("2014"));
+
+var plot=xml.createElement("plot");
+video1.appendChild(plot);
+plot.appendChild(xml.createTextNode("В ера на вълшебства, когато легенди и магия се сблъскват,единственият останал воин от мистичен орден (носителят на „Оскар“ Джеф Бриджис)  пътува по цялата земя, за да открие герой, който според предсказанията ще се роди с невероятни сили – последният Седми син (Бен Барнс).Изтръгнат от спокойния си живот на рибар, неподозираният млад герой се впуска в дръзко приключение заедно със своя закоравял в битките ментор, за да срази кралица на мрака (Джулиан Мур) и нейната армия от свръхестествени убийци, които тя е пратила срещу кралството им.Режисьор на СЕДМИЯТ СИН е Сергей Бодром по сценарий на Чарлс Лийвит и Стив Найт и екранен сюжет на Мат Грийнбърг, по поредицата романи „Хрониките Уордстоун“ на Джоузеф Дилейни.Продуценти на филма са Бейзъл Иванюк, Томас Тъл и Лайънъл Уиграм. Изпълнителни продуценти са Джон Яшни, Брент О’Конър и Алисия Котър със съпродуценти Джилиан Шеър и Ерика Лий.По поредицата романи „Хрониките Уордстоун“ от Джоузеф Дилейни ."));
+
+var actorsIN=xml.createElement("actorsIN");
+video1.appendChild(actorsIN);
+
+var actorRef1=xml.createElement("actor-ref");
+actorsIN.appendChild(actorRef1);
+actorRef1.setAttribute("actorID","a1");
+
+var actorRef2=xml.createElement("actor-ref");
+actorsIN.appendChild(actorRef2);
+actorRef2.setAttribute("actorID","a3");
+
+var video2=xml.createElement("video")
+video2.setAttribute("gendre", "adventure");
+video2.setAttribute("produced-by","s1");
+video2.setAttribute("type", "tvShow");
+videos.appendChild(video2);
+
+var filmName=xml.createElement("filmName");
+video2.appendChild(filmName);
+filmName.appendChild(xml.createTextNode("Игра на тронове"));
+
+var duration=xml.createElement("duration");
+video2.appendChild(duration);
+duration.appendChild(xml.createTextNode("45"));
+
+var country=xml.createElement("country");
+video2.appendChild(country);
+country.appendChild(xml.createTextNode("USA"));
+
+var year=xml.createElement("year");
+video2.appendChild(year);
+year.appendChild(xml.createTextNode("2011"));
+
+var plot=xml.createElement("plot");
+video2.appendChild(plot);
+plot.appendChild(xml.createTextNode("С шеметния си бяг от скована в жесток студ страна към земи на вечно лято и охолно безгрижие, ИГРА НА ТРОНОВЕ е сказание за владетели и владетелки, воини и чародеи, наемни убийци и незаконородени претенденти за власт, появили се във времена на мрачни поличби. Тук странна войнствена орда се сражава  с мечове, изковани от невиждан от човека метал, жестоко дивашко племе сее безумие сред хората, свиреп млад принц от кръвта на дракона разменя сестра си, за да си върне трона, едно дете се губи в сумрака между живота и смъртта и една решена на всичко жена предприема опасно пътуване, за да защити това, което й е скъпо. Сред заговори и коварства, трагедии и вероломство, победи и насилия, съюзници и врагове, съдбата на Старките виси на косъм и всяка от страните се бори за победа в най-смъртоносния конфликт: Играта на тронове."));
+
+
+var actorsIN=xml.createElement("actorsIN");
+video2.appendChild(actorsIN);
+ 
+var actorRef1=xml.createElement("actor-ref");
+actorsIN.appendChild(actorRef1);
+actorRef1.setAttribute("actorID","a2");
+
+var actorRef2=xml.createElement("actor-ref");
+actorsIN.appendChild(actorRef2);
+actorRef2.setAttribute("actorID","a4");
+
+
+var video3=xml.createElement("video")
+video3.setAttribute("gendre", "action");
+video3.setAttribute("produced-by","s3");
+video3.setAttribute("type", "movie");
+videos.appendChild(video3);
+
+var filmName=xml.createElement("filmName");
+video3.appendChild(filmName);
+filmName.appendChild(xml.createTextNode("Железният човек"));
+
+var duration=xml.createElement("duration");
+video3.appendChild(duration);
+duration.appendChild(xml.createTextNode("126"));
+
+var country=xml.createElement("country");
+video3.appendChild(country);
+country.appendChild(xml.createTextNode("USA"));
+
+var year=xml.createElement("year");
+video3.appendChild(year);
+year.appendChild(xml.createTextNode("2008"));
+
+var plot=xml.createElement("plot");
+video3.appendChild(plot);
+plot.appendChild(xml.createTextNode("Номинираният за Оскар Робърт Дауни Младши е в ролята на Тони Старк (Железният човек) в тази история за индустриалеца милиардер и гениален изобретател, който е отвлечен и принуден да създаде разрушително оръжие. Вместо това, използвайки интелигентността и гения си, Тони създава хай-тек брониран костюм и бяга от похитителите си. Когато разкрива престъпен заговор с глобални последици, той влиза в бронирания си костюм и дава обет да защитава света като Железният човек."));
+
+
+var actorsIN=xml.createElement("actorsIN");
+video3.appendChild(actorsIN);
+
+var actorRef1=xml.createElement("actor-ref");
+actorsIN.appendChild(actorRef1);
+actorRef1.setAttribute("actorID", "a1");
+
+var actorRef2=xml.createElement("actor-ref");
+actorsIN.appendChild(actorRef2);
+actorRef2.setAttribute("actorID", "a5");
+
+var studios=xml.createElement("studios");
+videolibrary.appendChild(studios);
+
+var studio1=xml.createElement("studio")
+studio1.setAttribute("id", "s1");
+studios.appendChild(studio1);
+
+var studioName=xml.createElement("studioName");
+studio1.appendChild(studioName);
+studioName.appendChild(xml.createTextNode("HBO"));
+
+var director=xml.createElement("director");
+studio1.appendChild(director);
+director.appendChild(xml.createTextNode("Дейвид Бениоф"));
+
+var address=xml.createElement("address");
+studio1.appendChild(address);
+address.appendChild(xml.createTextNode("Ню Йорк, САЩ"));
+
+var phone=xml.createElement("phone");
+studio1.appendChild(phone);
+phone.appendChild(xml.createTextNode("654512"));
+
+var studio2=xml.createElement("studio")
+studio2.setAttribute("id", "s2");
+studios.appendChild(studio2);
+
+var studioName=xml.createElement("studioName");
+studio2.appendChild(studioName);
+studioName.appendChild(xml.createTextNode("Titanic Studios"));
+
+var director=xml.createElement("director");
+studio2.appendChild(director);
+director.appendChild(xml.createTextNode("Сергей Бодров"));
+
+var address=xml.createElement("address");
+studio2.appendChild(address);
+address.appendChild(xml.createTextNode("Москва,Русия"));
+
+var phone=xml.createElement("phone");
+studio2.appendChild(phone);
+phone.appendChild(xml.createTextNode("654513"));
+
+var studio3=xml.createElement("studio")
+studio3.setAttribute("id", "s3");
+studios.appendChild(studio3);
+
+var studioName=xml.createElement("studioName");
+studio3.appendChild(studioName);
+studioName.appendChild(xml.createTextNode("Paramount Pictures"));
+
+var director=xml.createElement("director");
+studio3.appendChild(director);
+director.appendChild(xml.createTextNode("Джон Фавро"));
+
+var address=xml.createElement("address");
+studio3.appendChild(address);
+address.appendChild(xml.createTextNode("Куинс, САЩ"));
+
+var phone=xml.createElement("phone");
+studio3.appendChild(phone);
+phone.appendChild(xml.createTextNode("654542"));
+
+
+var actors=xml.createElement("actors");
+videolibrary.appendChild(actors);
+
+var actor1=xml.createElement("actor")
+actor1.setAttribute("gender", "M");
+actor1.setAttribute("age", "66");
+actor1.setAttribute("id", "a1");
+actors.appendChild(actor1);
+
+var name=xml.createElement("name");
+actor1.appendChild(name);
+
+var first=xml.createElement("first");
+name.appendChild(first);
+first.appendChild(xml.createTextNode("Джеф"));
+
+var last=xml.createElement("last");
+name.appendChild(last);
+last.appendChild(xml.createTextNode("Бриджис"));
+
+var countryActor=xml.createElement("countryActor");
+actor1.appendChild(countryActor);
+countryActor.appendChild(xml.createTextNode("САЩ"));
+
+var email=xml.createElement("email");
+actor1.appendChild(email);
+email.appendChild(xml.createTextNode("Bridges@gmail.com"));
+
+
+var actor2=xml.createElement("actor")
+actor2.setAttribute("gender", "M");
+actor2.setAttribute("age", "45");
+actor2.setAttribute("id", "a2");
+actors.appendChild(actor2);
+
+var name=xml.createElement("name");
+actor2.appendChild(name);
+
+var first=xml.createElement("first");
+name.appendChild(first);
+first.appendChild(xml.createTextNode("Николай"));
+
+var last=xml.createElement("last");
+name.appendChild(last);
+last.appendChild(xml.createTextNode("Костер-Валдау"));
+
+var countryActor=xml.createElement("countryActor");
+actor2.appendChild(countryActor);
+countryActor.appendChild(xml.createTextNode("Дания"));
+
+var email=xml.createElement("email");
+actor2.appendChild(email);
+email.appendChild(xml.createTextNode("Waldau@gmail.com"));
+
+
+
+var actor3=xml.createElement("actor")
+actor3.setAttribute("gender", "F");
+actor3.setAttribute("age", "55");
+actor3.setAttribute("id", "a3");
+actors.appendChild(actor3);
+
+var name=xml.createElement("name");
+actor3.appendChild(name);
+
+var first=xml.createElement("first");
+name.appendChild(first);
+first.appendChild(xml.createTextNode("Джулиан"));
+
+var last=xml.createElement("last");
+name.appendChild(last);
+last.appendChild(xml.createTextNode("Мур"));
+
+var countryActor=xml.createElement("countryActor");
+actor3.appendChild(countryActor);
+countryActor.appendChild(xml.createTextNode("САЩ"));
+
+var email=xml.createElement("email");
+actor3.appendChild(email);
+email.appendChild(xml.createTextNode("Moore@gmail.com"));
+
+
+var actor4=xml.createElement("actor")
+actor4.setAttribute("gender", "F");
+actor4.setAttribute("age", "42");
+actor4.setAttribute("id", "a4");
+actors.appendChild(actor4);
+
+var name=xml.createElement("name");
+actor4.appendChild(name);
+
+var first=xml.createElement("first");
+name.appendChild(first);
+first.appendChild(xml.createTextNode("Лина"));
+
+var last=xml.createElement("last");
+name.appendChild(last);
+last.appendChild(xml.createTextNode("Хийди"));
+
+var countryActor=xml.createElement("countryActor");
+actor4.appendChild(countryActor);
+countryActor.appendChild(xml.createTextNode("Бермудски острови"));
+
+var email=xml.createElement("email");
+actor4.appendChild(email);
+email.appendChild(xml.createTextNode("Headey@gmail.com"));
+
+
+var actor5=xml.createElement("actor")
+actor5.setAttribute("gender", "M");
+actor5.setAttribute("age", "50");
+actor5.setAttribute("id", "a5");
+actors.appendChild(actor5);
+
+var name=xml.createElement("name");
+actor5.appendChild(name);
+
+var first=xml.createElement("first");
+name.appendChild(first);
+first.appendChild(xml.createTextNode("Робърт"));
+
+var last=xml.createElement("last");
+name.appendChild(last);
+last.appendChild(xml.createTextNode("Дауни Джуниър"));
+
+var countryActor=xml.createElement("countryActor");
+actor5.appendChild(countryActor);
+countryActor.appendChild(xml.createTextNode("Ню Йорк, САЩ"));
+
+var email=xml.createElement("email");
+actor5.appendChild(email);
+email.appendChild(xml.createTextNode("Downy@gmail.com"));
+
+
+xml.save("generatedXML.xml");
+
+]]></script>
+</job>

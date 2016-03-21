@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video gendre='adventure' produced-by='s1' type='movie'>
+            <filmName>Карибски пирати: Проклятието на Черната перла</filmName>
+            <duration>143</duration>
+            <country>САЩ</country>
+            <year>2003</year>
+            <plot>Уил Търнър е млад ковач, влюбен в Елизабет Суон, дъщеря на губернатора. Една нощ градът е 
+                нападнат от пиратския кораб „Черната перла“, чийто екипаж, предвождан от капитана Хектор Барбоса,
+                е прокълнат заради алчността си да са нито живи, нито мъртви. Наглед те са обикновени хора, но не
+                могат да бъдат убити, и не изпитват удоволствията от живота, а лунната светлина разкрива истинската
+                им същност – живи скелети. За да развалят проклятието, им е нужна кръв от някогашния член на екипажа
+                Бил „Каиша“ Търнър, а тъй като той вече не е жив – от някой, в когото тече кръвта му. Елизабет се
+                представя пред тях с името Елизабет Търнър, и те я вземат по погрешка за дъщеря на Бил Търнър, и я отвличат.
+                Уил Търнър решава да я спаси, но не получава подкрепа от другите. Единствената му надежда е хвърленият 
+                в тъмница Джак Спароу. Уил го измъква срещу обещание да окаже помощ в освобождаването на Елизабет.
+                Хитрият и изобретателен Джак обаче има и своя цел – да си върне „Черната перла“, на която е бил капитан,
+                преди Барбоса да организира бунт срещу него
+            </plot>
+            <actorsIN>
+                <actor-ref actorID='a1'/>
+                <actor-ref actorID='a2'/>
+                <actor-ref actorID='a5'/>
+            </actorsIN>
+        </video>
+        
+        
+        <video gendre='adventure' produced-by='s2' type='movie'>
+            <filmName>Властелинът на пръстените: Задругата на пръстена</filmName>
+            <duration>178</duration>
+            <country>Нова Зеландия</country>
+            <year>2001</year>
+            <plot>Младият хобит Фродо и смелата задруга от приятели и съюзници се впускат в опасна мисия, за да 
+                унищожат легендарния Единствен пръстен. По петите им са слугите на злия Саурон, Господарят на
+                мрака и създател на Пръстена. Ако Саурон си върне Пръстена, Средната земя е обречена. Тази епична
+                история за доброто, злото, приятелството и саможертвата, носител на четири награди Оскар, ще ви
+                пренесе в свят, който надминава и най-смелите ви фантазии.
+            </plot>
+            <actorsIN>
+                <actor-ref actorID='a2'/>
+                <actor-ref actorID='a3'/>
+                <actor-ref actorID='a4'/>
+            </actorsIN>
+        </video>
+        
+        <video gendre='action' produced-by='s3' type='movie'>
+            <filmName>Дивергенти</filmName>
+            <duration>139</duration>
+            <country>САЩ</country>
+            <year>2014</year>
+            <plot>„Дивергенти“ е вълнуващо екшън приключение в един свят, в който хората са разделени на различни
+                фракции въз основа на човешките добродетели. Трис Прайър (Шайлийн Уудли) е предупредена, че е различна
+                (дивергентна) и никога няма да може да стане част от някоя от групите. Когато разкрива, че един от
+                фракционните лидери (Кейт Уинслет) крои заговор за унищожението на всички дивергенти, Трис е принудена да
+                започне да се доверява на тайнствен мъж на име Фор (Тио Джеймс), с когото трябва да стигне до отговора на
+                един жизненоважен въпрос, преди да е станало твърде късно: Какво прави дивергентите толкова опасни?
+            </plot>
+            <actorsIN>
+                <actor-ref actorID='a6'/>
+                <actor-ref actorID='a7'/>
+                <actor-ref actorID='a8'/>
+            </actorsIN>
+        </video>
+        
+    </videos>
+    
+    
+    <studios>
+        <studio id='s1'>
+            <studioName>Disney</studioName>
+            <director>Гор Вербински</director>
+            <address>САЩ</address>
+            <phone>555441</phone>
+        </studio> 
+        
+        <studio id='s2'>
+            <studioName>Warner Bros. Pictures </studioName>
+            <director>Питър Джаксън</director>
+            <address>Уелингтън, Нова Зеландия</address>
+            <phone>6544044</phone>
+        </studio>  
+        
+        <studio id='s3'>
+            <studioName>Summit Entertainment</studioName>
+            <director>Нийл Бъргър</director>
+            <address>САЩ</address>
+            <phone>953542</phone>
+        </studio> 
+    </studios>
+    
+    <actors>
+        <actor gender='M' age='52' id='a1'>
+            <name>
+                <first>Джони</first>
+                <last>Деп</last>
+            </name>
+            <countryActor>Кентъки,САЩ</countryActor>
+            <email>Depp@gmail.com</email>
+        </actor>
+        
+        
+        <actor gender='M' age='38' id='a2'>
+            <name>
+                <first>Орландо</first>
+                <last>Блум</last>
+            </name>
+            <countryActor>Кентърбъри, Великобритания</countryActor>
+            <email>Bloom@gmail.com</email>
+        </actor>
+        
+        
+        <actor gender='M' age='34' id='a3'>
+            <name>
+                <first>Илайджа</first>
+                <last>Ууд</last>
+            </name>
+            <countryActor>Айова, САЩ</countryActor>
+            <email>Wood@gmail.com</email>
+        </actor>
+        
+        <actor gender='F' age='46' id='a4'>
+            <name>
+                <first>Кейт</first>
+                <last>Бланшет</last>
+            </name>
+            <countryActor>Мелбърн,Австралия</countryActor>
+            <email>Blanchett@gmail.com</email>
+        </actor>
+        
+        <actor gender='F' age='30' id='a5'>
+            <name>
+                <first>Кийра</first>
+                <last>Найтли</last>
+            </name>
+            <countryActor>Мидълсекс,Великобритания</countryActor>
+            <email>Knightley@gmail.com</email>
+        </actor>
+        
+        <actor gender='F' age='24' id='a6'>
+            <name>
+                <first>Шейлийн</first>
+                <last> Удли</last>
+            </name>
+            <countryActor>Калифорния, САЩ</countryActor>
+            <email>Woodley@gmail.com</email>
+        </actor>
+        
+        <actor gender='M' age='31' id='a7'>
+            <name>
+                <first>Тео</first>
+                <last>Джеймс</last>
+            </name>
+            <countryActor>Оксфорд,Великобритания</countryActor>
+            <email>James@gmail.com</email>
+        </actor>
+        
+        <actor gender='F' age='40' id='a8'>
+            <name>
+                <first>Кейт</first>
+                <last>Уинслет</last>
+            </name>
+            <countryActor>Рединг, Великобритания</countryActor>
+            <email>Winslett@gmail.com</email>
+        </actor>
+    </actors>
+</videolibrary>
+

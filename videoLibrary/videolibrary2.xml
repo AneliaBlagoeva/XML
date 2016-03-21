@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video gendre='comedy' produced-by='s2' type='movie'>
+            <filmName>Сам вкъщи 1</filmName>
+            <duration>103</duration>
+            <country>USA</country>
+            <year>1990</year>
+            <plot>Кевин Маккалистър (Маколи Кълкин) е забравен сам у дома на Коледа, докато неговите родители
+                отиват на ваканция със самолет. Той не се страхува, когато разбира, че е останал сам, но вечерта
+                е посетен от двама крадци – Хари и Марв (Джо Пеши и Даниъл Стърн). Кевин им прави различни капани,
+                за да им попречи. Родителите му осъзнават едва в самолета, че са оставили Кевин сам и майка му се
+                качва на кола, щедро предложена от пътуващи музиканти, за да се върне обратно (тъй като по това време
+                няма друг полет обратно). Накрая полицията залавя Хари и Марв. Майка му пристига първа, и само минути
+                след това пристигат бащата и другите деца, които са хванали следващия полет.
+            </plot>
+            <actorsIN>
+                <actor-ref actorID='a1'/>
+            </actorsIN>
+        </video>
+        
+        
+        <video gendre='drama' produced-by='s2' type='tvShow'>
+            <filmName>Дневниците на вампира</filmName>
+            <duration>45</duration>
+            <country>USA</country>
+            <year>2009</year>
+            <plot>Сериалът се заснема в Мистик Фолс в щата Вирджиния, малък град, преследван и заобиколен от
+                свръхестествени същества. Поредицата проследява живота на Елена Гилбърт (Нина Добрев), която се 
+                влюбва във вампира Стефан Салваторе (Пол Уесли), а скоро се оказва уловена в любовен триъгълник
+                между Стефан и неговия по-голям брат, Деймън (Иън Сомърхолдър), които едновременно са преследвани 
+                и от миналото, което са имали с Катрин Пиърс/Катерина Петрова. Сериалът също така се фокусира върху
+                живота на приятелите на Елена и другите жители на Мистик Фолс. Появява се и нов главен герой, който 
+                е един от "първородните" вампири – Клаус
+            </plot>
+            <actorsIN>
+                <actor-ref actorID='a2'/>
+                <actor-ref actorID='a3'/>
+                <actor-ref actorID='a4'/>
+            </actorsIN>
+        </video>
+        
+        
+        
+        <video gendre='action' produced-by='s3' type='movie'>
+            <filmName>Турнирът</filmName>
+            <duration>95</duration>
+            <country>Великобритания</country>
+            <year>2009</year>
+            <plot>На всеки 7 години, в някой произволен град се сформира "Турнирът". Кралска битка между 30 
+                от най-смъртоносните бойци в света. Последният оцелял печели 10 милиона и титлата
+                "Първи в света". Всички битки се заснемат и се излъчват на кодиран канал, където 
+                милиардери залагат богатствата си. Играта започва, но дали фаворитите ще са подготвени за това, което ги очаква...
+            </plot>
+            <actorsIN>
+                <actor-ref actorID='a4'/>
+            </actorsIN>
+        </video>
+        
+    </videos>
+    
+    
+    <studios>
+        <studio id='s1'>
+            <studioName>20th Century Fox</studioName>
+            <director>Крис Кълъмбъс</director>
+            <address>Пенсилвания,САЩ</address>
+            <phone>324512</phone>
+        </studio> 
+        
+        <studio id='s2'>
+            <studioName>Bonanza Productionss</studioName>
+            <director>Кевин Уилямсън</director>
+            <address>САЩ</address>
+            <phone>752513</phone>
+        </studio>  
+        
+        <studio id='s3'>
+            <studioName>AV Pictures</studioName>
+            <director>Скот Ман</director>
+            <address>Манчестър, Великобритания</address>
+            <phone>654542</phone>
+        </studio> 
+    </studios>
+    
+    <actors>
+        <actor gender='M' age='35' id='a1'>
+            <name>
+                <first>Маколи</first>
+                <last>Кълкин</last>
+            </name>
+            <countryActor>САЩ</countryActor>
+            <email>Culkin@gmail.com</email>
+        </actor>
+        
+        
+        <actor gender='M' age='33' id='a2'>
+            <name>
+                <first>Пол</first>
+                <last>Уесли</last>
+            </name>
+            <countryActor>САЩ</countryActor>
+            <email>Wesley@gmail.com</email>
+        </actor>
+        
+        
+        <actor gender='F' age='26' id='a3'>
+            <name>
+                <first>Нина</first>
+                <last>Добрева</last>
+            </name>
+            <countryActor>България</countryActor>
+            <email>Dobrev@gmail.com</email>
+        </actor>
+        
+        <actor gender='M' age='37' id='a4'>
+            <name>
+                <first>Иън</first>
+                <last>Сомърхолдър</last>
+            </name>
+            <countryActor>САЩ</countryActor>
+            <email>Somerholder@gmail.com</email>
+        </actor>
+        
+    </actors>
+</videolibrary>
+

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videolibrary SYSTEM "videolibrary.dtd">
+<videolibrary>
+    <nameSite>Арена София</nameSite>
+    <siteLink>www.arenaSofia.bg</siteLink>
+    <videos>
+        <video gendre="action" produced-by="s2" type="movie">
+            <filmName>Седмият син</filmName>
+            <duration>103</duration>
+            <country>USA</country>
+            <year>2014</year>
+            <plot>В ера на вълшебства, когато легенди и магия се сблъскват,единственият останал воин
+                от мистичен орден (носителят на „Оскар“ Джеф Бриджис) пътува по цялата земя, за да
+                открие герой, който според предсказанията ще се роди с невероятни сили – последният
+                Седми син (Бен Барнс).Изтръгнат от спокойния си живот на рибар, неподозираният млад
+                герой се впуска в дръзко приключение заедно със своя закоравял в битките ментор, за
+                да срази кралица на мрака (Джулиан Мур) и нейната армия от свръхестествени убийци,
+                които тя е пратила срещу кралството им.Режисьор на СЕДМИЯТ СИН е Сергей Бодром по
+                сценарий на Чарлс Лийвит и Стив Найт и екранен сюжет на Мат Грийнбърг, по поредицата
+                романи „Хрониките Уордстоун“ на Джоузеф Дилейни.Продуценти на филма са Бейзъл
+                Иванюк, Томас Тъл и Лайънъл Уиграм. Изпълнителни продуценти са Джон Яшни, Брент
+                О’Конър и Алисия Котър със съпродуценти Джилиан Шеър и Ерика Лий.По поредицата
+                романи „Хрониките Уордстоун“ от Джоузеф Дилейни .</plot>
+            <actorsIN>
+                <actor-ref actorID="a1"/>
+                <actor-ref actorID="a3"/>
+            </actorsIN>
+        </video>
+        <video gendre="adventure" produced-by="s1" type="tvShow">
+            <filmName>Игра на тронове</filmName>
+            <duration>45</duration>
+            <country>USA</country>
+            <year>2011</year>
+            <plot>С шеметния си бяг от скована в жесток студ страна към земи на вечно лято и охолно
+                безгрижие, ИГРА НА ТРОНОВЕ е сказание за владетели и владетелки, воини и чародеи,
+                наемни убийци и незаконородени претенденти за власт, появили се във времена на
+                мрачни поличби. Тук странна войнствена орда се сражава с мечове, изковани от
+                невиждан от човека метал, жестоко дивашко племе сее безумие сред хората, свиреп млад
+                принц от кръвта на дракона разменя сестра си, за да си върне трона, едно дете се
+                губи в сумрака между живота и смъртта и една решена на всичко жена предприема опасно
+                пътуване, за да защити това, което й е скъпо. Сред заговори и коварства, трагедии и
+                вероломство, победи и насилия, съюзници и врагове, съдбата на Старките виси на косъм
+                и всяка от страните се бори за победа в най-смъртоносния конфликт: Играта на
+                тронове.</plot>
+            <actorsIN>
+                <actor-ref actorID="a2"/>
+                <actor-ref actorID="a4"/>
+            </actorsIN>
+        </video>
+        <video gendre="action" produced-by="s3" type="movie">
+            <filmName>Железният човек</filmName>
+            <duration>126</duration>
+            <country>USA</country>
+            <year>2008</year>
+            <plot>Номинираният за Оскар Робърт Дауни Младши е в ролята на Тони Старк (Железният
+                човек) в тази история за индустриалеца милиардер и гениален изобретател, който е
+                отвлечен и принуден да създаде разрушително оръжие. Вместо това, използвайки
+                интелигентността и гения си, Тони създава хай-тек брониран костюм и бяга от
+                похитителите си. Когато разкрива престъпен заговор с глобални последици, той влиза в
+                бронирания си костюм и дава обет да защитава света като Железният човек.</plot>
+            <actorsIN>
+                <actor-ref actorID="a1"/>
+                <actor-ref actorID="a5"/>
+            </actorsIN>
+        </video>
+    </videos>
+    <studios>
+        <studio id="s1">
+            <studioName>HBO</studioName>
+            <director>Дейвид Бениоф</director>
+            <address>Ню Йорк, САЩ</address>
+            <phone>654512</phone>
+        </studio>
+        <studio id="s2">
+            <studioName>Titanic Studios</studioName>
+            <director>Сергей Бодров</director>
+            <address>Москва,Русия</address>
+            <phone>654513</phone>
+        </studio>
+        <studio id="s3">
+            <studioName>Paramount Pictures</studioName>
+            <director>Джон Фавро</director>
+            <address>Куинс, САЩ</address>
+            <phone>654542</phone>
+        </studio>
+    </studios>
+    <actors>
+        <actor gender="M" age="66" id="a1">
+            <name>
+                <first>Джеф</first>
+                <last>Бриджис</last>
+            </name>
+            <countryActor>САЩ</countryActor>
+            <email>Bridges@gmail.com</email>
+        </actor>
+        <actor gender="M" age="45" id="a2">
+            <name>
+                <first>Николай</first>
+                <last>Костер-Валдау</last>
+            </name>
+            <countryActor>Дания</countryActor>
+            <email>Waldau@gmail.com</email>
+        </actor>
+        <actor gender="F" age="55" id="a3">
+            <name>
+                <first>Джулиан</first>
+                <last>Мур</last>
+            </name>
+            <countryActor>САЩ</countryActor>
+            <email>Moore@gmail.com</email>
+        </actor>
+        <actor gender="F" age="42" id="a4">
+            <name>
+                <first>Лина</first>
+                <last>Хийди</last>
+            </name>
+            <countryActor>Бермудски острови</countryActor>
+            <email>Headey@gmail.com</email>
+        </actor>
+        <actor gender="M" age="50" id="a5">
+            <name>
+                <first>Робърт</first>
+                <last>Дауни Джуниър</last>
+            </name>
+            <countryActor>Ню Йорк, САЩ</countryActor>
+            <email>Downy@gmail.com</email>
+        </actor>
+    </actors>
+</videolibrary>
